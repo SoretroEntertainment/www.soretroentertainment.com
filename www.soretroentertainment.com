@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, width=device-width">
+		<link rel="icon" href="https://i.ibb.co/ks7sJkC4/coolfavicon.png" type="image/x-icon">
+		<title>Soretro Entertainment</title>
+    </head>
+	<style>
+	body {
+font-family: fantasy;
+background-color: black;
+background-image: url('https://i.ibb.co/5gL7gnqc/gif.gif');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+}
+@-webkit-keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+@keyframes pulsate {
+ 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
+}
+#fuckawesome {
+  color: rgb(245,245,245);
+  text-shadow: 0 -1px rgba(0,0,0,.1);
+  background: none;
+  font-family: math;
+  float: center;
+  -webkit-animation: pulsate 0.2s linear infinite;
+  animation: pulsate 0.2s linear infinite;
+}
+@-webkit-keyframes holyfuck {
+ 10% { transform: scale(1, 1) rotate(80deg); }
+ 20% { transform: scale(0, 0) rotate(160deg); }
+ 100% { transform: scale(0, 0) rotate(0deg); }
+}
+@keyframes holyfuck {
+ 10% { transform: scale(1, 1) rotate(80deg); }
+ 20% { transform: scale(0, 0) rotate(160deg); }
+ 100% { transform: scale(0, 0) rotate(0deg); }
+}
+#holyfuck {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-shadow: 0 0 10px #3d7a97;
+}
+#holyfuck:after, #holyfuck:before {
+  content: "";
+  position: absolute; top: 0; left: 0;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-image: 
+    radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0) 30%),
+    linear-gradient(45deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%),
+    linear-gradient(135deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%);
+  -webkit-animation: holyfuck 10s linear infinite;
+  animation: holyfuck 10s linear infinite;
+  transform: scale(0, 0) rotate(0deg);
+}
+#holyfuck:before {
+  top: -30%;
+  right: 0; left: auto;
+  -webkit-animation-delay: 5s;
+  animation-delay: 5]1s;
+}
+#shit {
+  -webkit-animation: shit 1s linear infinite;
+  animation: shit 0.018s linear infinite;
+  text-shadow: 0 0 36px #FF88CC;
+  padding: 5px;
+}
+#shit:hover {
+transition: 0.018s ease-out;
+box-shadow:
+    inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+    inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+#shit:active {
+transition: 0.018s ease-in;
+background-color: white;
+}
+@-webkit-keyframes shit {
+  0% { color: rgb(128, 0, 48); }
+  50% { color: rgb(255, 0, 144); }
+  100% { color: rgb(128, 0, 48); }
+}
+@keyframes shit {
+  0% { color: rgb(48, 0, 48); }
+  50% { color: rgb(255, 0, 144); }
+  100% { color: rgb(48, 0, 48); }
+}
+b{
+  color: white;
+}
+c{
+  color: white;
+}
+d{
+  color: hotpink;
+  font-family: monospace;
+}
+a, u {
+  text-decoration: none;
+}
+</style>
+<center>
+	<body>
+	
+	<div style="position: relative">
+                <big><big><big><big><big><big><big><big><big><big><p style="position: fixed; bottom: 240px; width:100%; font-family: monospace; text-align: center"><strong><a id="shit" href="https://soretroentertainment.github.io/www.soretroentertainment.com-articles/">Articles</a></strong></p></big></big></big></big></big></big></big></big></big></big>
+            </div>
+	<div style="position: relative">
+                <big><big><big><big><big><big><big><big><big><big><p style="position: fixed; bottom: 140px; width:100%; font-family: monospace; text-align: center"><strong><a id="shit" href="https://soretroentertainment.github.io/www.soretroentertainment.com-reviews-saintsrow2/">Reviews</a></strong></p></big></big></big></big></big></big></big></big></big></big>
+            </div>
+	<div style="position: relative">
+                <big><big><big><big><big><big><big><big><big><big><p style="position: fixed; bottom: 40px; width:100%; font-family: monospace; text-align: center"><strong><a id="shit" href="https://soretroentertainment.github.io/www.soretroentertainment.com-downloads/">Downloads</a></strong></p></big></big></big></big></big></big></big></big></big></big>
+            </div>
+	<div style="position: relative">
+                <big><big><big><big><big><big><big><big><big><big><p style="position: fixed; bottom: -60px; width:100%; font-family: monospace; text-align: center"><strong><a id="shit" href="https://soretroentertainment.github.io/www.soretroentertainment.com-credits/">Credits</a></strong></p></big></big></big></big></big></big></big></big></big></big>
+            </div>
+	
+	</body>
+</html>
