@@ -9,68 +9,18 @@
 	<style>
 	body {
 font-family: fantasy;
-background-color: black;
+background-color: white;
 background-image: url('https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/390f75b7a061daf841579a91647d550c303eab46/WebsiteBackground.gif');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
-}
-@-webkit-keyframes pulsate {
- 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
-}
-@keyframes pulsate {
- 50% { color: #fff; text-shadow: 0 -1px rgba(0,0,0,.3), 0 0 5px #ffd, 0 0 8px #fff; }
-}
-#fuckawesome {
-  color: rgb(245,245,245);
-  text-shadow: 0 -1px rgba(0,0,0,.1);
-  background: none;
-  font-family: math;
-  float: center;
-  -webkit-animation: pulsate 0.2s linear infinite;
-  animation: pulsate 0.2s linear infinite;
-}
-@-webkit-keyframes holyfuck {
- 10% { transform: scale(1, 1) rotate(80deg); }
- 20% { transform: scale(0, 0) rotate(160deg); }
- 100% { transform: scale(0, 0) rotate(0deg); }
-}
-@keyframes holyfuck {
- 10% { transform: scale(1, 1) rotate(80deg); }
- 20% { transform: scale(0, 0) rotate(160deg); }
- 100% { transform: scale(0, 0) rotate(0deg); }
-}
-#holyfuck {
-  position: relative;
-  display: inline-block;
-  color: #fff;
-  text-shadow: 0 0 10px #3d7a97;
-}
-#holyfuck:after, #holyfuck:before {
-  content: "";
-  position: absolute; top: 0; left: 0;
-  display: block;
-  width: 100px;
-  height: 100px;
-  background-image: 
-    radial-gradient(rgba(255,255,255,1), rgba(255,255,255,0) 30%),
-    linear-gradient(45deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%),
-    linear-gradient(135deg, rgba(0,0,0,0) 49%, rgba(255,255,255,.4) 50%, rgba(0,0,0,0) 51%);
-  -webkit-animation: holyfuck 10s linear infinite;
-  animation: holyfuck 10s linear infinite;
-  transform: scale(0, 0) rotate(0deg);
-}
-#holyfuck:before {
-  top: -30%;
-  right: 0; left: auto;
-  -webkit-animation-delay: 5s;
-  animation-delay: 5]1s;
 }
 #shit {
   -webkit-animation: shit 1s linear infinite;
   animation: shit 0.018s linear infinite;
   text-shadow: 0px 5px #000000;
   padding: 5px;
+  font-size: 60px;
 }
 #shit:hover {
 transition: 0.018s ease-out;
@@ -132,33 +82,83 @@ a, u {
   margin-top: 0vw;
   text-align: left;
 }
+.loader {
+  position: fixed;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+.preloader {
+    -webkit-animation: load-out 0.2s;
+    animation: load-out 0.2s;
+	animation-delay: 0.1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes load-out {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes load-out {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
 </style>
 	<body>
 	
 	<center>
 	
-	<img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/390f75b7a061daf841579a91647d550c303eab46/WebsiteLogo.gif" alt="Logo" width="777" height="555">
+	<img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/390f75b7a061daf841579a91647d550c303eab46/WebsiteLogo.gif" 
+alt="Logo" width="777" height="555">
 	
 	</center>
 	
 	<div class="sticky">
 	<center>CURRENTLY INTERESTED IN:</center>
-	<img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/67463eea287e082dca5ceaa2451278ddc99baa54/James%20Bond%20Movies.png" alt="007" width="28" height="28">James Bond Movies
-	<br><img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/67463eea287e082dca5ceaa2451278ddc99baa54/Max%20Payne.png" alt="Pain to the Max" width="28" height="28">Max Payne
-	<br><img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/67463eea287e082dca5ceaa2451278ddc99baa54/GoldenEye%20007.png" alt="The Golden Boy" width="28" height="28">GoldenEye 007
-	<br><img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/67463eea287e082dca5ceaa2451278ddc99baa54/Perfect%20Dark.png" alt="Elvis" width="28" height="28">Perfect Dark
+	<img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/67463eea287e082dca5ceaa2451278ddc99baa54/James%20Bond%20Movies.png" 
+	alt="007" width="28" height="28">James Bond Movies
+	<br><img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/67463eea287e082dca5ceaa2451278ddc99baa54/Max%20Payne.png" 
+	alt="Pain to the Max" width="28" height="28">Max Payne
+	<br><img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/67463eea287e082dca5ceaa2451278ddc99baa54/GoldenEye%20007.png" 
+	alt="The Golden Boy" width="28" height="28">GoldenEye 007
+	<br><img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/67463eea287e082dca5ceaa2451278ddc99baa54/Perfect%20Dark.png" 
+	alt="Elvis" width="28" height="28">Perfect Dark
 	</div>
+	
+	<div class="preloader">
+    <a href="https://piratebuddy.github.io/www.piratebuddy.com/">
+	<img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/cadff76156930a48996b032f3d391f5c5b69bcf2/Caleb.png" 
+	alt="Fuck" width="1" height="1"></a>
+    </div>
 	
 	<center>
 	
 	<div style="position: relative">
-                <big><big><big><big><big><big><big><big><p style="position: fixed; bottom: 120px; width:100%; font-family: monospace; text-align: center"><strong><a id="shit" href="https://soretroentertainment.github.io/www.soretroentertainment.com-articles/">Articles</a></strong></p></big></big></big></big></big></big></big></big>
+                <p style="position: fixed; bottom: 160px; width:100%; font-family: monospace; text-align: center"><strong><a id="shit" 
+				href="https://soretroentertainment.github.io/www.soretroentertainment.com-articles/">Articles</a></strong></p>
             </div>
 	<div style="position: relative">
-                <big><big><big><big><big><big><big><big><p style="position: fixed; bottom: 40px; width:100%; font-family: monospace; text-align: center"><strong><a id="shit" href="https://soretroentertainment.github.io/www.soretroentertainment.com-downloads/">Downloads</a></strong></p></big></big></big></big></big></big></big></big>
+                <p style="position: fixed; bottom: 80px; width:100%; font-family: monospace; text-align: center"><strong><a id="shit" 
+				href="https://soretroentertainment.github.io/www.soretroentertainment.com-downloads/">Downloads</a></strong></p>
             </div>
 	<div style="position: relative">
-                <big><big><big><big><big><big><big><big><p style="position: fixed; bottom: -40px; width:100%; font-family: monospace; text-align: center"><strong><a id="shit" href="https://soretroentertainment.github.io/www.soretroentertainment.com-about/">About</a></strong></p></big></big></big></big></big></big></big></big>
+                <p style="position: fixed; bottom: 0px; width:100%; font-family: monospace; text-align: center"><strong><a id="shit" 
+				href="https://soretroentertainment.github.io/www.soretroentertainment.com-about/">About</a></strong></p>
             </div>
 	
 	</center>
