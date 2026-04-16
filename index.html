@@ -10,8 +10,6 @@
 	<style>
 	body {
 font-family: sans-serif;
-background-color: white;
-background-image: url('https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/d81712c27a4c4fcc7a33d75f120f2b4d1c3038f8/WebsiteBackgroundNew.gif');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
@@ -24,14 +22,14 @@ background-size: 100% 100%;
   font-size: 60px;
 }
 #glow:hover {
-transition: 0.018s ease-out;
+transition: 0.019s ease-out;
 box-shadow:
     inset -2px -2px 3px rgba(255, 255, 255, 0.6),
     inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 }
 #glow:active {
-transition: 0.018s ease-in;
-background-color: white;
+transition: 0.019s ease-in;
+background-color: lightgrey;
 }
 @-webkit-keyframes glow {
   0% { color: rgb(0, 0, 0); }
@@ -42,16 +40,6 @@ background-color: white;
   0% { color: rgb(48, 48, 48); }
   50% { color: rgb(255, 255, 255); }
   100% { color: rgb(48, 48, 48); }
-}
-b{
-  color: black;
-}
-c{
-  color: black;
-}
-d{
-  color: black;
-  font-family: monospace;
 }
 a, u {
   text-decoration: none;
@@ -73,15 +61,12 @@ a, u {
     height: 13%;
   }
 }
-.sticky {
-  position: fixed;
-  background-color: lightgray;
-  width: 21vw;
-  border: 3px solid gray;
-  top: 353px;
-  font-size: 1.9vw;
-  margin-top: 0vw;
-  text-align: left;
+.preloader {
+  -webkit-animation: load-out 0.2s;
+  animation: load-out 0.2s;
+  animation-delay: 0.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
 }
 .loader {
   position: fixed;
@@ -91,13 +76,6 @@ a, u {
   top: 0;
   left: 0;
   z-index: 10;
-}
-.preloader {
-    -webkit-animation: load-out 0.2s;
-    animation: load-out 0.2s;
-	animation-delay: 0.1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
 }
 @-webkit-keyframes load-out {
     from {
@@ -117,8 +95,65 @@ a, u {
         opacity: 0;
     }
 }
+.day {
+  background-image: url("https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/3d45cf323b69d5751b98d64c47d301d829953fa5/WebsiteBackground.gif");
+  background-color: white;
+  .sticky {
+  position: fixed;
+  background-color: lightgray;
+  width: 21vw;
+  border: 3px solid gray;
+  bottom: 353px;
+  font-size: 1.9vw;
+  text-align: left;
+  }
+  b{
+  color: black;
+  }
+  c{
+  color: black;
+  }
+  d{
+  color: black;
+  font-family: monospace;
+  }
+}
+.night {
+  background-image: url("https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/e30e0aa56a8d08fcb5c0b091a9023f38c8769a35/WebsiteBackgroundNight.gif");
+  background-color: black;
+  .sticky {
+  position: fixed;
+  color: white;
+  background-color: #2C2C2C;
+  width: 21vw;
+  border: 3px solid #7F7F7F;
+  bottom: 353px;
+  font-size: 1.9vw;
+  text-align: left;
+  }
+  b{
+  color: white;
+  }
+  c{
+  color: white;
+  }
+  d{
+  color: white;
+  font-family: monospace;
+  }
+}
 </style>
 	<body>
+	
+	<script>
+
+    var now = new Date();
+    if (now.getHours() > 8 && now.getHours() < 24) {
+    document.body.className += " day";
+    } else {
+    document.body.className += " night";
+    }
+	</script>
 	
 	<center>
 	
@@ -141,7 +176,7 @@ a, u {
 	<div class="preloader">
     <a href="https://piratebuddy.github.io/www.piratebuddy.com/">
 	<img srcset="https://raw.githubusercontent.com/SoretroEntertainment/www.soretroentertainment.com/cadff76156930a48996b032f3d391f5c5b69bcf2/Caleb.png" 
-	alt="Fuck" width="1" height="1"></a>
+	alt="Pirate" width="2" height="2"></a>
     </div>
 	
 	<center>
