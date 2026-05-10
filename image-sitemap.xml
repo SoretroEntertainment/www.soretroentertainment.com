@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com/9005156e9326482b8fa0926e8c62df0d937ab91b/Images/WebFavicon.png</image:loc>
+      <image:title>Nikosite Favicon</image:title>
+	  <image:caption>Icon for the website</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com/9005156e9326482b8fa0926e8c62df0d937ab91b/Images/SiteLogo.gif</image:loc>
+      <image:title>Nikosite Logo</image:title>
+	  <image:caption>Logo for the website</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com/9005156e9326482b8fa0926e8c62df0d937ab91b/Images/WebBackground.gif</image:loc>
+      <image:title>Background (Day)</image:title>
+	  <image:caption>Background for the website at the daytime</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com/9005156e9326482b8fa0926e8c62df0d937ab91b/Images/WebBackgroundNight.gif</image:loc>
+      <image:title>Background (Night)</image:title>
+	  <image:caption>Background for the website at the nighttime</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com/9005156e9326482b8fa0926e8c62df0d937ab91b/Images/Caleb.png</image:loc>
+      <image:title>Secret</image:title>
+	  <image:caption>Preloader image for the website</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-about/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-about/a3f8fbf45d3e43b3c5b07101fbb50eeb6002e868/Images/SiteFavicon.png</image:loc>
+      <image:title>Nikodump Favicon</image:title>
+	  <image:caption>Icon for the infodump page</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-downloads/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-downloads/cdd3d329457572e109e3de546488c22edc3b5c73/Images/WebFavicon.png</image:loc>
+      <image:title>Nikoshop Favicon</image:title>
+	  <image:caption>Icon for the archives page</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-downloads/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-downloads/cdd3d329457572e109e3de546488c22edc3b5c73/Images/BacktoMenuButton.png</image:loc>
+      <image:title>Nikoshop Backpage</image:title>
+	  <image:caption>Backpage image for the archives page</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-articles/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-articles/afd738dedb60a840bf66f169d256ad8496a3d9ee/Images/WebFavicon.png</image:loc>
+      <image:title>Nikoblogs Favicon</image:title>
+	  <image:caption>Icon for the articles page</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-articles/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-articles/afd738dedb60a840bf66f169d256ad8496a3d9ee/Cartridges/TexterInvadersMustDie.png</image:loc>
+      <image:title>Texter - Invaders Must Die</image:title>
+	  <image:caption>Cartridge for the Texter (Invaders Must Die)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-articles/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-articles/5a49597af57f8645d38c3cb053ed868d8ca3cace/Cartridges/TexterDeusEx2.png</image:loc>
+      <image:title>Texter - Deus Ex 2</image:title>
+	  <image:caption>Cartridge for the Texter (Deus Ex 2)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-invadersmustdie/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-invadersmustdie/2422a32c59319c9333059b9e4c268423962111db/Images/IMDFavicon.png</image:loc>
+      <image:title>Article Favicon - Invaders Must Die</image:title>
+	  <image:caption>Icon for the article (Invaders Must Die)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-invadersmustdie/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-invadersmustdie/2422a32c59319c9333059b9e4c268423962111db/Images/IMDArticleLogo.png</image:loc>
+      <image:title>Article Logo - Invaders Must Die</image:title>
+	  <image:caption>Logo for the article (Invaders Must Die)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-invadersmustdie/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-invadersmustdie/2422a32c59319c9333059b9e4c268423962111db/Images/IMDBacktoArticlesButton.png</image:loc>
+      <image:title>Article Backpage - Invaders Must Die</image:title>
+	  <image:caption>Backpage for the article (Invaders Must Die)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-deusex2/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-deusex2/d32ac126776aacbaa8351d949d497c1f7cba1760/Images/DX2ArticleIcon.png</image:loc>
+      <image:title>Article Favicon - Deus Ex 2</image:title>
+	  <image:caption>Icon for the article (Deus Ex 2)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-deusex2/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-deusex2/d32ac126776aacbaa8351d949d497c1f7cba1760/Images/DX2ArticleLogo.png</image:loc>
+      <image:title>Article Logo - Deus Ex 2</image:title>
+	  <image:caption>Logo for the article (Deus Ex 2)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-deusex2/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-deusex2/d32ac126776aacbaa8351d949d497c1f7cba1760/Images/DX1EnvComparison.png</image:loc>
+      <image:title>Image 1 - Deus Ex 2</image:title>
+	  <image:caption>Image (1) for the article (Deus Ex 2)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-deusex2/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-deusex2/d32ac126776aacbaa8351d949d497c1f7cba1760/Images/DX2EnvComparison.png</image:loc>
+      <image:title>Image 2 - Deus Ex 2</image:title>
+	  <image:caption>Image (2) for the article (Deus Ex 2)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-deusex2/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-deusex2/d32ac126776aacbaa8351d949d497c1f7cba1760/Images/DX2EnvComparison.png</image:loc>
+      <image:title>Image 2 - Deus Ex 2</image:title>
+	  <image:caption>Image (2) for the article (Deus Ex 2)</image:caption>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://nikosite.github.io/nikosite.com-invadersmustdie/</loc>
+    <image:image>
+      <image:loc>https://raw.githubusercontent.com/Nikosite/nikosite.com-deusex2/d32ac126776aacbaa8351d949d497c1f7cba1760/Images/DX2BacktoArticlesButton.png</image:loc>
+      <image:title>Article Backpage - Deus Ex 2</image:title>
+	  <image:caption>Backpage for the article (Deus Ex 2)</image:caption>
+    </image:image>
+  </url>
+</urlset>
