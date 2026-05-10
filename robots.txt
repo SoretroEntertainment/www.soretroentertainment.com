@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://nikosite.github.io/nikosite.com/sitemap.xml
+Sitemap: https://nikosite.github.io/nikosite.com/image-sitemap.xml
