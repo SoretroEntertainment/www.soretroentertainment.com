@@ -78,7 +78,7 @@ a {
     }
 }
 .day {
-  background-image: url("https://raw.githubusercontent.com/Nikosite/nikosite.com/9005156e9326482b8fa0926e8c62df0d937ab91b/Images/WebBackground.gif");
+  background-image: url("./Images/WebBackground.gif");
   background-color: white;
   .sticky {
   position: fixed;
@@ -101,7 +101,7 @@ a {
   }
 }
 .night {
-  background-image: url("https://raw.githubusercontent.com/Nikosite/nikosite.com/9005156e9326482b8fa0926e8c62df0d937ab91b/Images/WebBackgroundNight.gif");
+  background-image: url("./Images/WebBackgroundNight.gif");
   background-color: black;
   .sticky {
   position: fixed;
